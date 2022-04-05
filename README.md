@@ -3,7 +3,6 @@ Sovelluksella käyttäjä voi tehdä visualisoinnin [Collatzin konjektuurista](h
 
 ## Dokumentaatio
 - [Työaikakirjanpito](dokumentaatio/tyoaika.md)
-- [Vaatimusmäärittely](dokumentaatio/Vaatimusmaarittely.md)
 - [changelog](dokumentaatio/changelog.md)
 
 ## Asennus
