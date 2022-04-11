@@ -1,4 +1,4 @@
-5.4 Visualisointi toimii yhdelle luvulle kerrallaan.
+5.4 Visualisointi toimii yhdelle luvulle kerrallaan.<br>
 10.4 Visualisointi toimii luvuille (n,..1) ja antaa generoidun kuvan heti. 
 
 TODO:
