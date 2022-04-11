@@ -16,4 +16,6 @@ TEHTY visualisointi luvuille (n,..1).HUOM Kuvan generointi alkaa olemaan hyvin h
 Testien suoritus
 `poetry run invoke test`\
 Testikattavuus
-`poetry run invoke coverage`
+`poetry run invoke coverage`\
+Pylint
+`poetry run invoke lint`
