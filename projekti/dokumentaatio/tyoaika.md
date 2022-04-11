@@ -8,3 +8,6 @@ Yksinkertainen konjektuurin arvot laskeva funktio tehty
 5.4 Visualisoinnin ja luokkien säätämistä 12.30-15.30
 Visualisointi toimii nyt  yhdelle luvulle
 Testien tekemistä ja invoket 16.00-17.30
+
+10.4 Visualisoinnin viimeistelyä 12.00-16.00
+Visualisointi toimii nyt luvuille (n,..1) ja antaa kuvan suoraan.

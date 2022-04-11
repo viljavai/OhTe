@@ -1,22 +1,31 @@
 class Conjecture:
     #Määritellään collatzin konjektuuri
 
-    def __init__(self,n):
-        self.n = n
-        self.jono = [n]
+    def __init__(self,integer):
+        self.integer = integer
+        self.superlist = []
 
+    # Operaatiot yksittäiselle luvulle
     def oper(self):
-        if self.n % 2 == 0:
-            self.n = self.n // 2
-            return self.n
-        else:
-            self.n = self.n * 3 + 1
-            return self.n
-    
+        if self.integer % 2 == 0:
+            self.integer = self.integer // 2
+            return self.integer
+        if self.integer % 2 != 0:
+            self.integer = self.integer * 3 + 1
+        return self.integer
+
+    # Generoidaan lukujono
     def traverse(self):
-        while self.n != 1:
+        jono = [self.integer]
+        while self.integer != 1:
             self.oper()
-            self.jono.append(self.n)
-        print(self.jono)
-        return self.jono
-    
+            jono.append(self.integer)
+        self.superlist.append(jono)
+        return jono
+
+    # Luodaan kaikki lukujonot luvuille (n,..,1)
+    def tree(self):
+        for self.integer in range(self.integer,1,-1):
+            self.traverse()
+        print(self.superlist[0])
+        return self.superlist

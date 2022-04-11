@@ -1,16 +1,23 @@
 from collatz import Conjecture
-from visualisazion import Initial, Plotting
+from visualisazion import Plotting
+
 
 def main():
-    n = int(input("Syötä arvo n: "))
-    collatz = Conjecture(n)
-    lista = collatz.traverse()
-    bg = input("Taustaväri: (englanniksi)")
+#-------------------------------------------------------
+    integer = int(input("Syötä arvo n: "))
+    background = input("Taustaväri: (englanniksi)")
+    if background == "":
+        background = "black"
     color = input("Piirtoväri: (englanniksi)")
-    speed = int(input("Piirtonopeus: (10 on hyvä) "))
-    init = Initial(bg)
-    plott = Plotting(color,speed,bg)
-    plott.plot(lista)
-
+    if color == "":
+        color = "white"
+#-------------------------------------------------------
+    collatz = Conjecture(integer)
+    superlist = collatz.tree()
+    plott = Plotting(color,background)
+#-------------------------------------------------------
+    plott.plot(superlist)
+#-------------------------------------------------------
 if __name__ == "__main__":
     main()
+#-------------------------------------------------------
