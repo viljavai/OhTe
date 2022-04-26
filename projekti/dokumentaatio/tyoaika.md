@@ -11,3 +11,7 @@ Testien tekemistä ja invoket 16.00-17.30
 
 10.4 Visualisoinnin viimeistelyä 12.00-16.00
 Visualisointi toimii nyt luvuille (n,..1) ja antaa kuvan suoraan.
+
+24.4 Kuvan tallennuksen toteutus  ja tkinteriin perehtymistä 15.00-18.00
+
+25.4 GUI n aloittelua 12.00-18.00

@@ -1,20 +1,21 @@
 from collatz import Conjecture
 from visualisazion import Plotting
-
+import tkinter as tk
 
 def main():
 #-------------------------------------------------------
     integer = int(input("Syötä arvo n: "))
     background = input("Taustaväri: (englanniksi)")
     if background == "":
-        background = "black"
+        background = "white"
     color = input("Piirtoväri: (englanniksi)")
     if color == "":
-        color = "white"
+        color = "black"
 #-------------------------------------------------------
     collatz = Conjecture(integer)
     superlist = collatz.tree()
-    plott = Plotting(color,background)
+    root = tk.Tk()
+    plott = Plotting(root,color,background)
 #-------------------------------------------------------
     plott.plot(superlist)
 #-------------------------------------------------------

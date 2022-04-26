@@ -3,17 +3,18 @@ from collatz import Conjecture
 
 class TestConjecture(unittest.TestCase):
     def setUp(self):
-        self.c = Conjecture(16)
+        self.c = Conjecture(10)
+        self.even = Conjecture(100)
+        self.odd = Conjecture(3)
     
     def test_oper_odd(self):
-        c = Conjecture(11)
-        c.oper()
-        self.assertEqual((c.oper()), 17)
+        self.odd.oper
+        self.assertEqual((self.odd.oper), 10)
 
     def test_oper_even(self):
-        self.c.oper()
-        self.assertEqual((self.c.oper()), 4)
+        self.even.oper
+        self.assertEqual((self.even.oper), 2)
     
     def test_traverse(self):
-        self.c.traverse()
-        self.assertEqual(len(self.c.traverse()), 5)
+        self.c.traverse
+        self.assertEqual((self.c.traverse), 7)

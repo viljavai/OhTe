@@ -1,5 +1,6 @@
 5.4 Visualisointi toimii yhdelle luvulle kerrallaan.<br>
 10.4 Visualisointi toimii luvuille (n,..1) ja antaa generoidun kuvan heti. 
+26.4 Kuvan voi tallentaa nappia painamalla ja ohjelma on yhdistetty tkinteriin. Uuden kuvaajan luonti ei onnistu vielä GUI:n kautta ja bootatessa ilmestyy mystinen extra-ikkuna. 
 
 TODO:
-Läpikäynnin optimointi, nyt suurilla syötteillä (>10 000) kuvan generoimiseen menee hyvin kauan. Kuvan tallentamismahdollisuus on tekeillä. Tulevaisuudessa tulossa  käyttäjän hallitsemat syöttökentät/sliderit kulmaparametreille. 
+GUIn loppuun tekeminen, main()-funktion uudelleenjärjestäminen, yleinen koodin siistiminen.
