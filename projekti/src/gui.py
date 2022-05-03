@@ -4,9 +4,17 @@ from visualisazion import Plotting
 
 class Ui:
     def __init__(self, master):
+        """UI:n alustus
+
+        Args:
+            master: tkinter-olio
+        """
         self.master = master
 
     def initialize(self,master):
+        """Alustetaan UI
+        
+        """
         save_instance = Plotting(self.master)
         self.savebutton = tk.Button(self.master, text="Save graph", command=save_instance.save_image)
         self.savebutton.config(bg="black",fg="white")
@@ -26,6 +34,8 @@ class Ui:
         self.integerbutton.pack()
 
     def press(self):
+        """Napin toiminta
+        """
         self.integer = self.integer_entry.get()
         self.integer = int(self.integer)
         instance = Conjecture(self.integer, self.master)

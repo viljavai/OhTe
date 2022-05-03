@@ -4,11 +4,14 @@ import os
 import tkinter as tk
 
 class Plotting:
-    """ Visualisaattori 
+    """Luodaan kuvaaja
     """
 
     def __init__(self, master):
-        """ Turtlen alustus 
+        """alustetaan turtle-olio
+
+        Args:
+            master: tkinter-olio, jolla yhdistetään GUI ja turtle-ruutu
         """
         self.master = master
         self.canvas = tk.Canvas(self.master)
@@ -17,6 +20,11 @@ class Plotting:
 
 
     def plot(self,superlist):
+        """Kuvaajan luonnin logiikka
+
+        Args:
+            superlist: Lukujonot välillä (integer,..1)
+        """
         self.canvas.config(width=1500, height=1000)
         self.canvas.pack(side= tk.BOTTOM)
         self.turtle.color("black")
