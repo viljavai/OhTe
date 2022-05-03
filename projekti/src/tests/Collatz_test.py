@@ -1,20 +1,19 @@
 import unittest
+import tkinter as tk
 from collatz import Conjecture
 
 class TestConjecture(unittest.TestCase):
     def setUp(self):
-        self.c = Conjecture(10)
-        self.even = Conjecture(100)
-        self.odd = Conjecture(3)
+        self.master = tk.Tk()
+        self.c = Conjecture(10,self.master)
+        self.odd = Conjecture(3,self.master)
+        self.even = Conjecture(4,self.master)
     
     def test_oper_odd(self):
-        self.odd.oper
-        self.assertEqual((self.odd.oper), 10)
+        self.assertEqual(int(self.odd.oper(3)), 10)
 
     def test_oper_even(self):
-        self.even.oper
-        self.assertEqual((self.even.oper), 2)
+        self.assertEqual(int(self.even.oper(4)), 2)
     
     def test_traverse(self):
-        self.c.traverse
-        self.assertEqual((self.c.traverse), 7)
+        self.assertEqual(len(list(self.c.traverse(10))), 7)

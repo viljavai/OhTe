@@ -15,3 +15,7 @@ Visualisointi toimii nyt luvuille (n,..1) ja antaa kuvan suoraan.
 24.4 Kuvan tallennuksen toteutus  ja tkinteriin perehtymistä 15.00-18.00
 
 25.4 GUI n aloittelua 12.00-18.00
+
+2.5 GUIn säätöä ja sovelluslogiikan uudelleenjärjestelyä 20.00-21.00
+
+3.5 Lisää GUIn säätöä, koodin tyylin korjailua 10.00-12.00, 17.00-18.00

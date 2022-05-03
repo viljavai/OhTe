@@ -2,12 +2,11 @@ import tkinter as tk
 from collatz import Conjecture
 from visualisazion import Plotting
 
-class UI:
+class Ui:
     def __init__(self, master):
         self.master = master
-        self.initialize()
 
-    def initialize(self):
+    def initialize(self,master):
         save_instance = Plotting(self.master)
         self.savebutton = tk.Button(self.master, text="Save graph", command=save_instance.save_image)
         self.savebutton.config(bg="black",fg="white")
