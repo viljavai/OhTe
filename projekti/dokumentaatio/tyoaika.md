@@ -19,3 +19,8 @@ Visualisointi toimii nyt luvuille (n,..1) ja antaa kuvan suoraan.
 2.5 GUIn säätöä ja sovelluslogiikan uudelleenjärjestelyä 20.00-21.00
 
 3.5 Lisää GUIn säätöä, koodin tyylin korjailua 10.00-12.00, 17.00-18.00
+
+10.5 GUIn säätöä 16.00-17.00
+
+11.5 Viimeistelyä 16.00-19.oo
+
