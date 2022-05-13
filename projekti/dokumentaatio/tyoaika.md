@@ -22,5 +22,5 @@ Visualisointi toimii nyt luvuille (n,..1) ja antaa kuvan suoraan.
 
 10.5 GUIn säätöä 16.00-17.00
 
-11.5 Viimeistelyä 16.00-19.oo
+11.5 Viimeistelyä 16.00-19.00, Testien säätämistä ja dokmentaation kijoittamista 22.00-23.00
 
