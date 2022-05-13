@@ -64,9 +64,15 @@ class Ui:
         """Napin toiminta
         """
         self.integer = self.integer_entry.get()
-        self.integer = int(self.integer)
+        try:
+            self.integer = int(self.integer)
+        except:
+            return print("Syötäthän vain numeroita syöttökenttiin!")
         self.angle = self.angle_entry.get()
-        self.angle = int(self.angle)
+        try:
+            self.angle = int(self.angle)
+        except:
+            return print("Syötäthän vain numeroita syöttökenttiin!")
         self.numvar = self.numvar_box.get()
         instance = Conjecture(self.integer, self.master, self.canvas, self.angle, self.numvar)
         instance.tree()
