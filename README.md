@@ -4,7 +4,7 @@ Sovelluksella käyttäjä voi tehdä visualisoinnin [Collatzin konjektuurista](h
 ## Dokumentaatio
 - [Vaatimusmäärittely](projekti/dokumentaatio/Vaatimusmaarittely.md)
 - [Käyttöohje](projekti/dokumentaatio/kayttoohje.md)
-- Arkkitehtuuri
+- [Arkkitehtuuri](projekti/dokumentaatio/arkkitehtuuri.md)
 - Testausdokumentti
 - [Työaikakirjanpito](projekti/dokumentaatio/tyoaika.md)
 - [changelog](projekti/dokumentaatio/changelog.md)
