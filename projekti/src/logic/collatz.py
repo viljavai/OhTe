@@ -1,4 +1,4 @@
-from visualisazion import Plotting
+from visualisazion.visualisazion import Plotting
 
 class Conjecture:
 

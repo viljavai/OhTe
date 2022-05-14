@@ -1,6 +1,6 @@
 import tkinter as tk
-from collatz import Conjecture
-from visualisazion import Plotting
+from logic.collatz import Conjecture
+from visualisazion.visualisazion import Plotting
 
 class Ui:
     def __init__(self, master):

@@ -1,6 +1,6 @@
 import unittest
 import tkinter as tk
-from collatz import Conjecture
+from logic.collatz import Conjecture
 
 class TestConjecture(unittest.TestCase):
     def setUp(self):
