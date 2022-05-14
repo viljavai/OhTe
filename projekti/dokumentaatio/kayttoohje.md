@@ -11,7 +11,7 @@ että suurilla syötteillä (>5000) kuvaajan generointiin kuluu useampi sekunti.
 Jos annat epäpätevän syötteen, virheilmoitus näkyy komentorivillä.
 2. Syötä kääntymisaste kenttään "Give angle of rotation". Tämä määrittää kuvaajan normitetun käännöskulman. 
 Hyväksi havaittu vakiosyöte on 10 astetta. Suurilla kulmasyötteillä kuvaaja saattaa käpristyä kasaan. 
-3. valitse haluatko luvut näkyväksi kuvaajaan. Suurilla lukuarvoilla kuvaaja saattaa näyttää sotkuiselta, 
+3. Valitse haluatko luvut näkyväksi kuvaajaan. Suurilla lukuarvoilla kuvaaja saattaa näyttää sotkuiselta, 
 mutta numeroilla pystyy havainnollistamaan erkanevien haarojen arvoja.
 4. Kuvaaja piirtyy ruudulle ja komentoriville tulostuu generoitu lukusarja käyttäjäsyötteelle.
 Jos kuvaaja ei näy ruudulla, koeta syöttää arvot uudelleen tai muuta kulmaparametrin arvoa. 
