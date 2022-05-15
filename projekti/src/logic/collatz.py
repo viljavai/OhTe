@@ -52,7 +52,7 @@ class Conjecture:
         Returns:
             self.superlist: lista lukujonoja
         """
-        for self.integer in range(self.integer,1,-1):
+        for self.integer in range(self.integer, 1, -1):
             self.traverse()
         print(self.superlist[0])
         plot_instance = Plotting(self.master, self.canvas)

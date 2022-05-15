@@ -19,7 +19,7 @@ class Plotting:
         self.turtle = turtle.RawTurtle(self.screen)
 
 
-    def plot(self,superlist, angle, numvar):
+    def plot(self, superlist, angle, numvar):
         """Kuvaajan luonnin logiikka
 
         Args:
@@ -33,24 +33,24 @@ class Plotting:
         self.turtle.hideturtle()
         self.turtle.penup()
         if angle > 15:
-            self.turtle.goto(-400,-400)
+            self.turtle.goto(-400, -400)
         else:
-            self.turtle.goto(-400,-550)
+            self.turtle.goto(-400, -550)
         self.turtle.pendown()
         self.turtle.pensize(1)
         self.turtle.speed(0)
-        self.screen.tracer(0,0)
+        self.screen.tracer(0, 0)
         for jono in superlist:
             if numvar is True:
                 self.turtle.write(jono[0], "right", font=("Verdana", 5, "normal"))
             self.turtle.penup()
             if angle >= 15:
-                self.turtle.goto(-400,-400)
+                self.turtle.goto(-400, -400)
             else:
-                self.turtle.goto(-400,-550)
+                self.turtle.goto(-400, -550)
             self.turtle.setheading(90)
             self.turtle.pendown()
-            for i in range(len(jono)-2,0,-1):
+            for i in range(len(jono)-2, 0, -1):
                 if jono[i] % 2 == 0:
                     # 10
                     self.turtle.right(int(angle))
