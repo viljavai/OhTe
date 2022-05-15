@@ -28,7 +28,7 @@ class Plotting:
             numvar: Boolean
         """
         self.canvas.config(width=1920, height=1200)
-        self.canvas.pack(side=tk.LEFT)
+        self.canvas.pack(side=tk.BOTTOM)
         self.turtle.color("black")
         self.turtle.hideturtle()
         self.turtle.penup()
@@ -45,7 +45,7 @@ class Plotting:
                 self.turtle.write(jono[0], "right", font=("Verdana", 5, "normal"))
             self.turtle.penup()
             if angle >= 15:
-                self.turtle.goto(-400,-300)
+                self.turtle.goto(-400,-400)
             else:
                 self.turtle.goto(-400,-550)
             self.turtle.setheading(90)

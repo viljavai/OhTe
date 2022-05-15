@@ -1,6 +1,6 @@
 import tkinter as tk
 from logic.collatz import Conjecture
-from visualisazion.visualisazion import Plotting
+from visualisazion. visualisazion import Plotting
 
 class Ui:
     def __init__(self, master):
@@ -64,7 +64,9 @@ class Ui:
         """Napin toiminta
         """
         self.integer = self.integer_entry.get()
-        if self.integer == "1" or self.integer[0] == "-":
+        if self.integer == "":
+            return print("Syötäthän vain päteviä numeroita syöttökenttiin!")
+        if self.integer == "1" or self.integer == "0" or self.integer[0] == "-":
             return print("Syötäthän vain päteviä numeroita syöttökenttiin!")
         try:
             self.integer = int(self.integer)
